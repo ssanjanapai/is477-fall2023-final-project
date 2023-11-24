@@ -1,0 +1,8 @@
+Accuracy: 0.96
+
+Confusion Matrix:
+       acc  good  unacc  vgood
+acc     72     4      5      2
+good     0    10      0      1
+unacc    0     0    235      0
+vgood    1     2      0     14
