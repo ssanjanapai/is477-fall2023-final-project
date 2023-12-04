@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+prepare        1
+total          1
+
+Select jobs to execute...
+
+[Tue Nov 28 19:45:47 2023]
+rule prepare:
+    output: snakefolder/prepare_output.txt
+    jobid: 0
+    reason: Missing output files: snakefolder/prepare_output.txt
+    resources: tmpdir=/var/folders/wb/vdgwvt_s1s1_mbf_w9jd77jr0000gn/T
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule prepare in file /Users/sanjana_pai/Desktop/is477-fall2023-final-project/Snakefile, line 1:
+Job 0 completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+snakefolder/prepare_output.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-11-28T194547.691245.snakemake.log

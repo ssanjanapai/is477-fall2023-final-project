@@ -1,0 +1,2 @@
+SyntaxError in file /Users/sanjana_pai/Desktop/is477-fall2023-final-project/Snakefile, line 3:
+No rule keywords allowed after run/shell/script/notebook/wrapper/template_engine/cwl in rule prepare. (Snakefile, line 3)

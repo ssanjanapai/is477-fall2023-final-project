@@ -22,7 +22,7 @@ plt.title('Distribution of Car Evaluation Classes')
 plt.xlabel('Evaluation Level')
 plt.ylabel('Count')
 plt.savefig('./results/class_distribution.png')
-plt.show()
+#plt.show()
 
 # Split the data into features (X) and target variable (y)
 X = df.drop('class', axis=1)
@@ -43,12 +43,10 @@ y_pred = classifier.predict(X_test)
 
 # Calculate accuracy
 accuracy = accuracy_score(y_test, y_pred)
-#print(f"Accuracy: {accuracy:.2f}")
 
 # Confusion matrix
 conf_matrix = confusion_matrix(y_test, y_pred)
 conf_matrix_df = pd.DataFrame(conf_matrix, index=classifier.classes_, columns=classifier.classes_)
-
 results_file_path = './results/classification_results.txt'
 with open(results_file_path, 'w') as results_file:
     results_file.write(f"Accuracy: {accuracy:.2f}\n\n")
@@ -62,4 +60,4 @@ plt.title('Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
 plt.savefig('./results/confusion_matrix.png')
-plt.show()
+#plt.show()

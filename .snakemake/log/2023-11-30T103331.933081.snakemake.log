@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 3
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+analyze        1
+total          1
+
+Select jobs to execute...
+
+[Thu Nov 30 10:33:31 2023]
+rule analyze:
+    input: data/car_evaluation_dataset.csv
+    output: results/class_distribution.png, results/classification_results.txt, results/confusion_matrix.png, results/summary_statistics.csv
+    jobid: 0
+    reason: Updated input files: data/car_evaluation_dataset.csv
+    resources: tmpdir=/var/folders/wb/vdgwvt_s1s1_mbf_w9jd77jr0000gn/T
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.
