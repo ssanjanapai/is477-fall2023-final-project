@@ -55,7 +55,8 @@ The heatmap visualization of the confusion matrix enhances interpretability, pro
 
 ## Workflow
 
-The workflow for this project is visualized in the [Workflow Image](./graph.png)
+The workflow for this project is visualized:
+![Workflow Image](./graph.png)
 
 ## Reproducing
 
