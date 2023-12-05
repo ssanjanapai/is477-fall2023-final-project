@@ -9,7 +9,7 @@ rule profile:
     shell: "python scripts/my_profile.py"
 
 rule analyze:
-    input: "profiling/report.html"
+    input: "data/car_evaluation_dataset.csv"
     output: 
       "results/class_distribution.png",
       "results/classification_results.txt",

@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 3
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+analyze        1
+total          1
+
+Select jobs to execute...
+
+[Tue Dec  5 16:11:56 2023]
+rule analyze:
+    input: data/car_evaluation_dataset.csv
+    output: results/class_distribution.png, results/classification_results.txt, results/confusion_matrix.png, results/summary_statistics.csv
+    jobid: 0
+    reason: Set of input files has changed since last execution
+    resources: tmpdir=/var/folders/wb/vdgwvt_s1s1_mbf_w9jd77jr0000gn/T
+
+[Tue Dec  5 16:11:58 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-12-05T161156.190164.snakemake.log
