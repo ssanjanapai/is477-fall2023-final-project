@@ -1,5 +1,5 @@
-# IS-477 Fall 2023 Final Project
-
+# IS-477 Fall 2023 Final Project - Car Evaluation
+[![DOI](https://zenodo.org/badge/722340421.svg)](https://zenodo.org/doi/10.5281/zenodo.10258395)
 ## Overview
 
 This repository contains the final project for the IS-477: Data Management, Curation, and Reproducibility course for the Fall 2023 semester. This repository contains an extensive exploration of the Car Evaluation Dataset, extracted from a simple hierarchical decision model. This dataset is designed to serve as an excellent testbed for constructive induction and structure discovery methodologies.
