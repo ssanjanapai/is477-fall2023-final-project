@@ -8,6 +8,12 @@ This repository contains the final project for the IS-477: Data Management, Cura
 The selected dataset for this project is Car Evaluation Dataset, sourced from the UCI Machine Learning archive (https://archive.ics.uci.edu/datasets)
 
 ## Analysis and Visualization
+## Analysis:
+The analysis of the Car Evaluation Dataset reveals insightful patterns and model performance metrics. The summary statistics provide a comprehensive overview of the dataset, capturing essential characteristics. A bar chart depicting the distribution of car evaluation classes illustrates the dataset's class balance.
+
+Utilizing a Decision Tree classifier, the model is trained on the dataset, achieving an accuracy of 0.96. The confusion matrix further details the classifier's performance, showcasing how well it predicts each evaluation level. The results are saved in a classification results file, offering a concise summary of the model's accuracy and the confusion matrix.
+
+The heatmap visualization of the confusion matrix enhances interpretability, providing a clear representation of the model's predictive performance across different evaluation levels. Overall, the analysis offers a robust understanding of the dataset and the effectiveness of the employed classification model.
 #### Summary Statistics
 
 The dataset underwent a thorough analysis to derive summary statistics, which are available in the [summary_statistics.csv](./results/summary_statistics.csv) file.
@@ -45,13 +51,6 @@ Team - Sanjana Pai, Jingwen Shan
 - Used the DOT file and created workflow visualization using  https://edotor.net/
 - Worked on Licenses
 - Wrote a clear and concise Readme.md
-
-## Analysis:
-The analysis of the Car Evaluation Dataset reveals insightful patterns and model performance metrics. The summary statistics provide a comprehensive overview of the dataset, capturing essential characteristics. A bar chart depicting the distribution of car evaluation classes illustrates the dataset's class balance.
-
-Utilizing a Decision Tree classifier, the model is trained on the dataset, achieving an accuracy of [insert accuracy here]. The confusion matrix further details the classifier's performance, showcasing how well it predicts each evaluation level. The results are saved in a classification results file, offering a concise summary of the model's accuracy and the confusion matrix.
-
-The heatmap visualization of the confusion matrix enhances interpretability, providing a clear representation of the model's predictive performance across different evaluation levels. Overall, the analysis offers a robust understanding of the dataset and the effectiveness of the employed classification model.
 
 ## Workflow
 
