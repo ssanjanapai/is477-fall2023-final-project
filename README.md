@@ -41,7 +41,7 @@ Team - Sanjana Pai, Jingwen Shan
 
 - **Jingwen:** 
 - Selecting the dataset 
-- Writing script for y-data profiling and creating profiling report 
+- Writing script for data profiling and creating profiling report 
 - Used the DOT file and created workflow visualization using  https://edotor.net/
 - Worked on Licenses
 - Wrote a clear and concise Readme.md
@@ -122,4 +122,8 @@ I am selecting this data license to make the data accessible and usable for a wi
 - Bohanec,Marko. (1997). Car Evaluation. UCI Machine Learning Repository. https://doi.org/10.24432/C5JP48.
 - OpenML. https://www.openml.org/search?type=data&sort=runs&id=21&status=active. Accessed 4 Dec. 2023.
 - PhD, M. Masum. “Car Evaluation Analysis Using Decision Tree Classifier.” Medium, 25 Apr. 2022, https://towardsdatascience.com/car-evaluation-analysis-using-decision-tree-classifier-61a8ff12bf6f.
+- Ludäscher, B., Altintas, I., Bowers, S., Cummings, J., Critchlow, T., Deelman, E., De Roure, D., Freire, J., Goble, C.A., Jones, M.B. and Klasky,
+S., 2009. Scientific Process Automation and Workflow Management. Scientific Data Management, 10(3), pp.476-508. CRC Press.
+- Köster, J., & Rahmann, S. (2012). Snakemake—A scalable bioinformatics workflow engine. Bioinformatics, 28(19), 2520–2522.
+- Nadal, J. (2018). Digital Preservation. In Encyclopedia of Library and Information Sciences (4th ed.). CRC Press.
 
